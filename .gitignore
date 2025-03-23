@@ -1,0 +1,39 @@
+.venv/
+
+
+**/__pycache__/
+*.pyc
+
+# پوشه PyCharm و VS Code
+.idea/
+.vscode/
+
+# فایل‌های سیستمی
+__pycache__/
+*.pyo
+
+# محیط مجازی (Virtual Environment)
+env/
+venv/
+ENV/
+
+# پایگاه داده محلی
+*.sqlite3
+
+# فایل‌های کش
+*.log
+*.pot
+*.py[co]
+*.so
+
+# پوشه media و static
+media/
+staticfiles/
+
+# فایل‌های secret یا تنظیمات محلی
+*.env
+.env/
+
+# تنظیمات سیستم عامل
+.DS_Store
+Thumbs.db
